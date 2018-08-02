@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\adcolony-sdk-3.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="db3f2a91dd7569187e53b7761789e47f972e7dea">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-adcolony-sdk-3.2.1_a67ffe14e10665a798e24cef4d0318ef1c2a0f01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_mvnative\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c002d1f599acf9a52e7ad509ff1094fe3b0df8c6">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_mvnative_f379e3672ed44195581bf0cbf0722cbbeb31de7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.2.0_6c8b719e4489dbc2b41e92092bc65e5a37e4ce40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="021a35121d96866646ef7753685eaf0c56e7a0b1">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d03f50df7fff5cb947ba9d952be835d4c38d97d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_7475cd2b2532904466f07750613132c78843848d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_nativeex\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="35af0b0814dce0cf8c115995825e710dcebe1212">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_nativeex_2372afd1f30355b5b024d53870264fde6672003f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_044c03a54fbccf82be32ac8a8b534dd442ca01d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.2.0_62b12827d967b0ec59985c1c6f4a04eda9948ff5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\libs\inmobi-6.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="73ce7451ff9e5c34e2b8d56c2d790a475e72f87f">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\2\inmobi-6.2.3_00c37f039d61dac7586e4c5f71041c94a13a5f32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\libs\mailru-4.6.17.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="47014b19164146a3855708173a25f1e4bf9719f5">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\2\mailru-4.6.17_bc5cf16b52109d0bf91550c66ef31be611a021b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_934e51f871a6ed61ad7adfe876b69130525f1006\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\11.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f2cb88e7e28736d44e7e643deb80c9af1c3662c8">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-11.0.4_8249ddf00d277b9f2a3b44eb6d3f17b7a8a30825\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_d8b1fb72b60fa1dbb88cba00baf708e9abf5c61e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_videocommon\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c2fa68cb65374fdf10576598cd1664f0e76f502e">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_videocommon_adee11ea3b0691c26c5873b6db10cd979a56e233\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_appwallext\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="22a70eedbd13612c9a05ba5150f40db01abf34b7">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_appwallext_eaed5a9c1af454efd753076a04b87a3760f06d41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_mvjscommon\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0587fc885614863d9f55f28751d157c851369b77">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_mvjscommon_0a709a9d434f2554be1ad844318f55a089e006f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\11.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2c73e2a93e00abd240e495c1e62217e53904a3f3">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-11.0.4_6b0e062893f1f5331fcc66d574b531bcbd236eb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_alphab\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fec672a253673cf00f69ea83f3007362eb7f1605">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_alphab_81d89ffebde3e915fbe857100e8912c524c9fffa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_mvdownloads\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="afc5231c1930620a3a74a855157058acc36ba867">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_mvdownloads_501b10bde9b0f10778cb044531aec60a3dac9985\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_interstitial\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3f0307872f88d6eab1dafdab6dd02e86d9d003ae">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_interstitial_b36f0878040a293da87ed02ad13d9718db18018b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Александра\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_6a166bcda077e09b2872ab7690df510f6a8d5a17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.2.0_f492715aca7e67963f94149269be87958f1011e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\libs\yandex-metrica-2.73.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2ba91330c168ac14ee942f7795e3f13055cdfe9d">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\2\yandex-metrica-2.73_a4925bf1fa9a05a40e9943d355b5aa8b8cddd2b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\11.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e7f890dd2539b7f2582f450f0721e2dea6ae510c">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-11.0.4_3868d2155c148bb3db191f472517902717025515\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\11.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-11.0.4_5fec4f9456d227a4bf9858fd8f3c8dba8e0b0437\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\libs\startapp-3.6.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ec0994b914c48eb3892a60892e0d55429ceccb58">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\2\startapp-3.6.7_52c1155a6d3d888919e06243cef2b5aed21f932f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-11.0.4_70a6ee72679c243ae38d2cdacecc1d9d648149f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mmedia-6.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1cf28904b8807fb3ba2381b251e0736e540e3e6a">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mmedia-6.4.0_8a28433c4bfd749cbde22e6f1c50c68bd65ebebe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_offerwall\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fe9e3e6ba3175e32ac2fe1b976556c4f2da98858">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_offerwall_d0e1316b963c050e0b6f45c0228bad00a2bb51ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\libs\unity_ads-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4ebcf02d5212e0e2d4514368ce2d4bc3754a30fe">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\2\unity_ads-2.1.0_38d8b1c2290a83da3afac423f13cc7759d42e3c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\11.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="34c23b5894b4f24d566bfc33e0e25462c6436b78">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-11.0.4_34ee7e370b8bc01f9912c0c66bdfad84d7a5242a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.2.0_31fd2a1a427e72002735502cd7b5086151bfe797\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_appwall\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="72458acab217f827428bea203fb58b9fac053c86">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_appwall_596c3d136f6b95485ed9c8db1c537651d7db5109\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\libs\applovin-7.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="10dbddcc75af7e3eb61ffd18116ed2f87f5a3077">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\2\applovin-7.5.0_cd9dadfe78e4d505e494816bd550bf4776651069\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_common\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3f5a3419d3975e2afdb05f9a42812f8ae32828a1">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_common_5aeb0341c1e2bc41a8f9528fd45b0141cfc6bfb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_reward\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="aef04e2c65f21af9d3f0189c55e3dc14ac353782">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_reward_d8e45b2eaa2a7edb0dcc0a961c087835fb368812\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\libs\chartboost-6.6.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0c0ecde1daabe405b0c0f2bcbeee39fe845b9e6f">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\2\chartboost-6.6.3_11412bee9f5169ca511efc7a2ccc1968b353785b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-11.0.4_284b39b42536c79516d47b270be446d78b9f96ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.2.0_df3362d6840a5b776c5a5cf029d6f8c8ff4d8b1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\libs\appodeal-2.1.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b2a997e48b3b479c7f3d2b0aad076429972ff864">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\2\appodeal-2.1.11_cec38901ca9d2c068f625570cae64e8f96863d7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b76cccb9083656e88ed813967eec6937b719ddc1">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6331bb4c11eb2db6b6680f0dc3103da0f002288f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_playercommon\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d2833ba874cd6746da15aa16767c62c82ac7eaef">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_playercommon_dceef77ca57a3c10341da42c0347e394863cb77c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_2d5d2da140f3a50e8356370a284f216f6194acde\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\mobvista_videofeeds\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a11d9612ecba220b3843c243c2f40275d23b114b">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-mobvista_videofeeds_64bf58e4a0835c1a12c13412601ff4e5236e4816\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\libs\ogury-2.1.15.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2154c555f0c1f71fac84222599e48d7430c4deb9">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\2\ogury-2.1.15_426a87c646f433dd74675fb1159beccfa6a2c94d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-11.0.4_002184ece6a396a4c910844686faa456432e134e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\libs\android-support-v7-recyclerview-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6ab9cdfed741163aeb58ce8d1dbb8d68bcce68ff">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v7-recyclerview-23.1.1_5e9a1161bf253988b38ec87f0af26d955d67b2c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Test\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="416fb9ee2fd6e7af0bba04b01d90cb475b1e2074">
+        <dex dex="D:\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-11.0.4_f3d108211956a45916dbca7a1c1b45b61615d317\classes.dex" />
+    </item>
+
+</items>
