@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.appodeal.support.test"
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'com.google.android.gms:play-services-ads:11.0.4'
+    compile 'com.google.android.gms:play-services-location:11.0.4'
+    compile 'com.squareup.picasso:picasso:2.5.2' //for Inmobi
+    compile name: 'adcolony-sdk-3.2.1', ext: 'aar'
+    compile name: 'mmedia-6.4.0', ext: 'aar'
+    compile name: 'mobvista_alphab', ext: 'aar'
+    compile name: 'mobvista_appwall', ext: 'aar'
+    compile name: 'mobvista_appwallext', ext: 'aar'
+    compile name: 'mobvista_common', ext: 'aar'
+    compile name: 'mobvista_interstitial', ext: 'aar'
+    compile name: 'mobvista_mvdownloads', ext: 'aar'
+    compile name: 'mobvista_mvjscommon', ext: 'aar'
+    compile name: 'mobvista_mvnative', ext: 'aar'
+    compile name: 'mobvista_nativeex', ext: 'aar'
+    compile name: 'mobvista_offerwall', ext: 'aar'
+    compile name: 'mobvista_playercommon', ext: 'aar'
+    compile name: 'mobvista_reward', ext: 'aar'
+    compile name: 'mobvista_videocommon', ext: 'aar'
+    compile name: 'mobvista_videofeeds', ext: 'aar'
+    testCompile 'junit:junit:4.12'
+}
