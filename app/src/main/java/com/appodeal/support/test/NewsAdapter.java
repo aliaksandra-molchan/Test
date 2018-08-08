@@ -10,7 +10,6 @@ import android.widget.TextView;
 import com.appodeal.ads.NativeAd;
 import com.appodeal.ads.native_ad.views.NativeAdViewNewsFeed;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -18,13 +17,13 @@ public class NewsAdapter extends BaseAdapter {
     private static final int NEWS_TYPE = 0;
     private static final int NATIVE_TYPE = 1;
 
-    private static final int NATIVE_INDEX = 1;
+    private static final int NATIVE_INDEX = 2;
 
-    private List<News> newsFeed = new ArrayList<>();
+    private List<News> newsFeed;
     private Context context;
-    private NativeAd nativeAd;
+    private List<NativeAd> nativeAd;
 
-    public NewsAdapter(Context context, NativeAd nativeAd, List<News> newsFeed) {
+    public NewsAdapter(Context context, List<NativeAd> nativeAd, List<News> newsFeed) {
         this.context = context;
         this.nativeAd = nativeAd;
         this.newsFeed = newsFeed;
@@ -33,25 +32,24 @@ public class NewsAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return newsFeed.size() + 1;
+        return newsFeed.size() + nativeAd.size();
     }
 
     @Override
     public Object getItem(int i) {
-        if (i == NATIVE_INDEX)
-            return nativeAd;
-        else if (i < NATIVE_INDEX)
+        if (i != 0 && i % NATIVE_INDEX == 0) {
+            if (i - (i / NATIVE_INDEX + 1) < nativeAd.size()) {
+                return nativeAd.get(i - (i / NATIVE_INDEX + 1));
+            } else return newsFeed.get(i - nativeAd.size());
+        } else if (i < NATIVE_INDEX) {
             return newsFeed.get(i);
-        else return newsFeed.get(i - 1);
+        }
+        return newsFeed.get(i - i / NATIVE_INDEX);
     }
 
     @Override
     public long getItemId(int i) {
-        if (i == NATIVE_INDEX)
-            return NATIVE_INDEX;
-        else if (i < NATIVE_INDEX)
-            return i;
-        else return i - 1;
+        return i;
     }
 
     @Override
@@ -86,7 +84,8 @@ public class NewsAdapter extends BaseAdapter {
 
     @Override
     public int getItemViewType(int position) {
-        if (position == NATIVE_INDEX) {
+        if (position != 0 && position % NATIVE_INDEX == 0 &&
+                position - (position / NATIVE_INDEX + 1) < nativeAd.size()) {
             return NATIVE_TYPE;
         }
         return NEWS_TYPE;

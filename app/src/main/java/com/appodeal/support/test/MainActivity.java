@@ -21,6 +21,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private static final String APP_KEY = "8a57398146ede8bdd1c904b3bbb439d3b99eaa5e25fe7cb0";
+
+    //change this variable to 'false' if you don't use test mode
+    private static final boolean TEST_MODE = true;
+
+    private static final int NATIVES_COUNT = 4;
     private static final long BANNER_TIME = 5000;
     private static final long INTERSTITIAL_TIME = 30000;
     private static final long COUNT_DOWN_INTERVAL = 1000;
@@ -55,12 +60,14 @@ public class MainActivity extends AppCompatActivity {
         initInterstitialTimer();
         interstitialTimer.start();
 
+        Appodeal.show(activity, Appodeal.BANNER_TOP);
+
         buttonStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (isFirstRange)
                     interstitialTimer.cancel();
-                Appodeal.cache(activity, Appodeal.NATIVE, 1);
+                Appodeal.cache(activity, Appodeal.NATIVE, NATIVES_COUNT);
                 progressBar.setVisibility(View.VISIBLE);
             }
         });
@@ -69,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initAppodeal() {
         Appodeal.disableLocationPermissionCheck();
-        Appodeal.setTesting(true);
+        Appodeal.setTesting(TEST_MODE);
         Appodeal.setAutoCache(Appodeal.NATIVE, false);
         Appodeal.initialize(this, APP_KEY, Appodeal.INTERSTITIAL | Appodeal.NATIVE | Appodeal.BANNER);
     }
@@ -95,7 +102,16 @@ public class MainActivity extends AppCompatActivity {
         Appodeal.setBannerCallbacks(new BannerCallbacks() {
             @Override
             public void onBannerLoaded(int i, boolean b) {
-                Appodeal.show(activity, Appodeal.BANNER_TOP);
+
+            }
+
+            @Override
+            public void onBannerFailedToLoad() {
+
+            }
+
+            @Override
+            public void onBannerShown() {
                 new CountDownTimer(BANNER_TIME, COUNT_DOWN_INTERVAL) {
 
                     @Override
@@ -107,16 +123,6 @@ public class MainActivity extends AppCompatActivity {
                         Appodeal.hide(activity, Appodeal.BANNER);
                     }
                 }.start();
-            }
-
-            @Override
-            public void onBannerFailedToLoad() {
-
-            }
-
-            @Override
-            public void onBannerShown() {
-
             }
 
             @Override
@@ -159,20 +165,30 @@ public class MainActivity extends AppCompatActivity {
         Appodeal.setNativeCallbacks(new NativeCallbacks() {
             @Override
             public void onNativeLoaded() {
-                List<News> newsFeed=new ArrayList<>();
-                newsFeed.add(new News("Google 'plans censored China search engine","Google"));
-                newsFeed.add(new News("McDonald's gives mum-to-be chemical latte","McDonald's"));
-                newsFeed.add(new News("Almost all lemurs are under threat of extinction","Lemurs"));
-                newsFeed.add(new News("Tokyo Medical University 'changed female exam scores'","Tokyo"));
 
-                nativeAdList = Appodeal.getNativeAds(1);
+                List<News> newsFeed = new ArrayList<>();
+                newsFeed.add(new News("Google 'plans censored China search engine", "Google"));
+                newsFeed.add(new News("McDonald's gives mum-to-be chemical latte", "McDonald's"));
+                newsFeed.add(new News("Almost all lemurs are under threat of extinction", "Lemurs"));
+                newsFeed.add(new News("Tokyo Medical University 'changed female exam scores'", "Tokyo"));
+                newsFeed.add(new News("Google 'plans censored China search engine", "Google"));
+                newsFeed.add(new News("McDonald's gives mum-to-be chemical latte", "McDonald's"));
+                newsFeed.add(new News("Almost all lemurs are under threat of extinction", "Lemurs"));
+
+                nativeAdList = Appodeal.getNativeAds(NATIVES_COUNT);
+
+                if (TEST_MODE) {
+                    for (int i = 0; i < 3; i++) {
+                        nativeAdList.add(nativeAdList.get(0));
+                    }
+                }
 
                 ListView listView = (ListView) findViewById(R.id.nativeList);
 
-                NewsAdapter newsAdapter=new NewsAdapter(activity, nativeAdList.get(0),newsFeed);
+                NewsAdapter newsAdapter = new NewsAdapter(activity, nativeAdList, newsFeed);
                 listView.setAdapter(newsAdapter);
 
-                Appodeal.cache(activity, Appodeal.NATIVE);
+                //   Appodeal.cache(activity, Appodeal.NATIVE);
                 progressBar.setVisibility(View.INVISIBLE);
             }
 
