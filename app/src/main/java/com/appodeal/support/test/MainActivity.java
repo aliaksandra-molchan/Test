@@ -53,14 +53,15 @@ public class MainActivity extends AppCompatActivity {
         Button buttonStart = (Button) findViewById(R.id.buttonStart);
 
         initAppodeal();
+
+        Appodeal.show(activity, Appodeal.BANNER_TOP);
+
         initBannerCallbacks();
         initInterstitialCallbacks();
         initNativeCallbacks();
 
         initInterstitialTimer();
         interstitialTimer.start();
-
-        Appodeal.show(activity, Appodeal.BANNER_TOP);
 
         buttonStart.setOnClickListener(new View.OnClickListener() {
             @Override
